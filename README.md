@@ -89,6 +89,15 @@ _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
 
 **Question 2**
+##Happiness and GDP
+#The average GDP by country
+#The Highest and Lowest countries by GDP
+
+
+##Happiness and HDI
+#The average GDP by country
+#The Highest and Lowest countries by GDP
+
 *Is happiness correlated with GDP? How about HDI?*
 
 
