@@ -88,6 +88,7 @@ _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
 ##Happiness, GDP, and HDI
+
 #Gross Domestic Product
 ![GDP Corrolation](output_data/GDP_HDI/HappyGDP.png)
 ![GDP Averages](output_data/GDP_HDI/Average_GDP_by_Region.png)
