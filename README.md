@@ -93,6 +93,7 @@ _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 The correlation coefficient between GDP and happiness is approximately 0.21. This suggests a positive, but relatively weak, correlation between a country's Gross Domestic Product (GDP) and its reported level of happiness.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Question 2**
 ##Happiness, GDP, and HDI
 #Gross Domestic Product
@@ -107,6 +108,8 @@ The correlation coefficient between GDP and happiness is approximately 0.21. Thi
 ![Top 25 HDI by Country](output_data/GDP_HDI/Top_HDI.png)
 ![Bottom 25 HDI by Country](output_data/GDP_HDI/Bottom_HDI.png)
 =======
+=======
+>>>>>>> 6aa75c057f74bf0273ce5ab596999de8b454b478
 ![GDP Averages](output_data/GDP_HDI/Average_GDP_by_Region.png)
 
 ![Top 25 GDP by Country](output_data/GDP_HDI/Top_GDP.png)
@@ -121,7 +124,10 @@ The bottom 5 countries by GDP include Comoros, Belize, Liberia, Republic of Cong
 The correlation coefficient between HDI and happiness is approximately 0.01. This suggests a very weak positive correlation between a country's Human Development Index (HDI) and its reported level of happiness.
 
 ![HDI Averages](output_data/GDP_HDI/Average_HDI_by_Region.png)
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> 6aa75c057f74bf0273ce5ab596999de8b454b478
 
 ![Top 25 HDI by Country](output_data/GDP_HDI/Top_HDI.png)
 The top 5 countries by HDI are Norway, Switzerland, Australia, Germany, and Ireland.
