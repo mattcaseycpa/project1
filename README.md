@@ -1,5 +1,5 @@
 # Data Analytics Boot Camp
-## Project 1 by Lushtastic
+## Project 1 by Breakout Room 3
 ### Happiness, Success Measures, and Alcohol
 
 
