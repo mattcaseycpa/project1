@@ -87,20 +87,18 @@ _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
+##Happiness, GDP, and HDI
+#Gross Domestic Product
+![GDP Corrolation](output_data/GDP_HDI/HappyGDP.png)
+![GDP Averages](output_data/GDP_HDI/Average_GDP_by_Region.png)
+![Top 25 GDP by Country](output_data/GDP_HDI/Top_GDP.png)
+![Bottom 25 GDP by Country](output_data/GDP_HDI/Bottom_GDP.png)
 
-**Question 2**
-##Happiness and GDP
-#The average GDP by country
-#The Highest and Lowest countries by GDP
-
-
-##Happiness and HDI
-#The average GDP by country
-#The Highest and Lowest countries by GDP
-
-*Is happiness correlated with GDP? How about HDI?*
-
-
+#Human Development Index
+![HDI Corrolation](output_data/GDP_HDI/HappyHDI.png)
+![HDI Averages](output_data/GDP_HDI/Average_HDI_by_Region.png)
+![Top 25 HDI by Country](output_data/GDP_HDI/Top_HDI.png)
+![Bottom 25 HDI by Country](output_data/GDP_HDI/Bottom_HDI.png)
 
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
