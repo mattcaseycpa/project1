@@ -1,5 +1,5 @@
 # Data Analytics Boot Camp
-## Project 1 by Lushtastic
+## Project 1 by Breakout Room 3
 ### Happiness, Success Measures, and Alcohol
 
 
@@ -10,22 +10,27 @@ Bryan Johnson /
 Tom Regan /
 Eyasu Yilma
 
+<img src="Project_Images/Image006.jpg" width = 500, height = 400>
+
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
 
 **Our Questions**
 What's the point of life, the universe, and everything? The answer is a resounding '42', as calculated by the fictional super-computer Deep Thought (always know where your towel is). More seriously though, surely the point of our lives is to maximize human happiness. With that in mind, we thought it might be interesting to investigate happiness and several things that it correlates with.
 
+
+
 1. For starters, what are the happiest countries around the world?
 2. Is happiness correlated with measures of national success; for example: Gross Domestic Product (GDP) and Human Development Index (HDI)?
 3. Is happiness impacted by alcohol consumption?
 4. Do the types of alcohol consumed seem to influence happiness differently?
 
-(INSERT Image004)
-(INSERT Image003)
-(INSERT CHART)
-(INSERT Image005)
-(INSERT Image006)
+
+
+![The happiest 10 countries](Project_Images/Chart001.png)
+
+<img src="Project_Images/Image005.png" width = 500, height = 400>
+
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
 
