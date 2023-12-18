@@ -80,6 +80,11 @@ _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 **Question 1**
 *What are the happiest countries around the world?*
 
+| Happiest Countries | Least Happy Countries |
+| ------------------ | --------------------- |
+|![Top 10 Happiest Countries](Project_Images/top_happy_10_countries.png)| ![Bottom 10 Happiest Countries](Project_Images/bottom_happy_10_countries.png) |
+
+
 
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
