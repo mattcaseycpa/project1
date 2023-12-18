@@ -16,15 +16,12 @@ _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
 
 **Our Questions**
-What's the point of life, the universe, and everything? The answer is a resounding '42', as calculated by the fictional super-computer Deep Thought (always know where your towel is). More seriously though, surely the point of our lives is to maximize human happiness. With that in mind, we thought it might be interesting to investigate happiness and several things that it correlates with.
+What's the point of life, the universe, and everything? The answer is a resounding '42', as calculated by the fictional super-computer Deep Thought (always know where your towel is). More seriously, though, surely the point of our lives is to maximize human happiness. With that in mind, we set out to investigate happiness and its relationship with several factors.
 
 
-
-1. For starters, what are the happiest countries around the world?
+1. What are the happiest countries around the world?
 2. Is happiness correlated with measures of national success; for example: Gross Domestic Product (GDP) and Human Development Index (HDI)?
 3. Is happiness impacted by alcohol consumption? Is there an overall relationship between alcohol consumption and happiness or does one type of alcohol affect happiness the most?
-4. Do the types of alcohol consumed seem to influence happiness differently?
-
 
 
 ![The happiest 10 countries](Project_Images/Chart001.png)
@@ -40,7 +37,7 @@ Background information for those in need!
 *Gross Domestic Product (GDP)*
 GDP is a measure of how much value a country creates through the production of goods and services. If you take a country's GDP and divide that number by its population, the result is GDP Per Capita, which is a rough estimate of how much value each person contributed to the economy. These values are usually stated on a per annum basis and they can vary wildly across countries and regions.
 
-To provide a sense of the scale, the United States GDP in our dataset is nearly $19 Trillion while China - a country with five times as many people - has a GDP of $11 Trillion. To help put GDP into perspective, we calculate GDP Per Capita as it helps us to normalize GDP across countries with wildly different size population. In our dataset, Luxembourg has the highest GDP Per Capita ($100,739) while Malawi has the lowest GDP Per Capita ($300).
+To provide a sense of the scale, the United States GDP in our dataset is nearly $19 Trillion while China - a country with five times as many people - has a GDP of $11 Trillion. To help put GDP into perspective, we calculate GDP Per Capita to normalize GDP across countries with wildly different populations. In our dataset, Luxembourg has the highest GDP Per Capita ($100,739) while Malawi has the lowest GDP Per Capita ($300).
 
 One final note: GDP Per Capita doesn't equate to what the average individual earns. That's an entirely different conversation!
 
@@ -57,11 +54,11 @@ Sourced from Kaggle.com, we identified a dataset that provided insight into happ
 [Kaggle Link](https://www.kaggle.com/datasets/marcospessotto/happiness-and-alcohol-consumption/data)
 
 Things to know about this dataset:
-1. Happiness was rated on the scale of 1 to 10 by country, based on a survey previously conducted.
-2. Measures of national success included Gross Domestic Product (GDP) and Human Development Index (HDI).
-3. Alcohol consumed per capita is broken down into type with separate columns for beer, spirits, and wine.
-4. While the dataset included several columns of data per capita, it didn't include each country's population data.
-5. The GDP Per Capita column used decimals, instead of commas, to represent thousands - this required some pre-processing.
+1. Happiness was rated on the scale of 1 to 10 by country, based on a survey previously conducted
+2. Measures of national success included Gross Domestic Product (GDP) and Human Development Index (HDI)
+3. Alcohol consumed per capita is broken down by type: beer, wine, and spirits
+4. While the dataset included several columns of data per capita, it didn't include each country's population data
+5. The GDP Per Capita column used decimals instead of commas to represent thousands, requiring additional data cleansing for usability
 
 *Source 2*
 Sourced from Kaggle.com, we identified a dataset that provided data on Global Population Trends for years 2016 - 2022. Our first dataset contains 2016 data so we isolated the most complete set of data from the file for the countries in the original file. We determined that the best year for us to match against was 2018.
@@ -76,9 +73,7 @@ Sourced from Kaggle.com, we identified a dataset that provided data on Global Po
 
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
-
-**Question 1**
-*What are the happiest countries around the world?*
+# Happiest Countries Around the World
 
 | Happiest Countries | Least Happy Countries |
 | ------------------ | --------------------- |
@@ -87,8 +82,8 @@ _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
 
 
-## Happiness, GDP, and HDI
-# Gross Domestic Product
+# Happiness, GDP, and HDI
+## Gross Domestic Product
 ![GDP Corrolation](output_data/GDP_HDI/HappyGDP.png)
 
 The correlation coefficient between GDP and happiness is approximately 0.21. This suggests a positive, but relatively weak, correlation between a country's Gross Domestic Product (GDP) and its reported level of happiness.
@@ -104,7 +99,7 @@ Notably, the majority of these top countries are located in the northern hemisph
 
 The bottom 5 countries by GDP include Comoros, Belize, Liberia, Republic of Congo, and Suriname. These countries have significantly lower GDP values compared to the top-ranking nations. Similar to the top 25, the majority of these countries are in the northern hemisphere.
 
-# Human Development Index
+## Human Development Index
 ![HDI Corrolation](output_data/GDP_HDI/HappyHDI.png)
 
 The correlation coefficient between HDI and happiness is approximately 0.01. This suggests a very weak positive correlation between a country's Human Development Index (HDI) and its reported level of happiness.
@@ -122,27 +117,21 @@ The bottom 5 countries by HDI include Niger, Chad, Sierra Leone, Burkina Faso, a
 
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
+#  Relationship between Alcohol Consumption and Happiness
+## Total Alcohol Consumption
+![Happiness by total alcohol consumption](output_data/OH/Happiness_by_Total_Beverage_Consumption.png)
+Based on the combination of all three alcohols measured, linear regression shows a moderate positive relationship between alcoholic consumption per capita and happiness (r = 0.541).
 
-**Question 3**
-*Is happiness impacted by alcohol consumption? Is there an overall relationship between alcohol consumption and happiness or does one type of alcohol affect happiness the most?*
+## Type of alcohol
+![Happiness by beer, wine, spirit alcohol consumption](output_data/OH/Happiness_by_Beer_Wine_and_Spirit_Consumption.png)
 
-<img src="output_data/Happiness%20by%20Beer,%20Wine,%20and%20Spirit%20Consumption.png" width = 800, height = 400>
-
-For each type of alcohol, we found the correlation between Happiness and Beer, Wine, Spirit to be 0.488, 0.447, and 0.246, respectively. This means there is a moderate relationship between Happiness and Beer and Happiness and Wine. However, there was a weak relationship between Happiness and Spirits.
-
-<img src="output_data/Happiness%20by%20Total%20Beverage%20Consumption.png" width = 950, height = 320>
-
-When we combined the alcohol consumption together, we found a correlation coefficient of 0.541, which is also a moderate relationship between Happiness and Alcohol Consumption.
-
-_____  _____  _____  _____  _____  _____  _____  _____  _____  _____
-
-
-**Question 4**
-*Do the types of alcohol consumed seem to influence happiness differently?*
-
-
+When compared individually, the three types of alcohol measured each support positive relationships between consummption per capita and happiness, but with somewhat varying strengths:
+- Beer: moderate relationship (r = 0.488)
+- Wine: moderate relationship (r = 0.447)
+- Spirits: weak relationship (r = 0.246)
 
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
+
 
 **Sources**
 *Data Links*
