@@ -1,5 +1,5 @@
 # Data Analytics Boot Camp
-## Project 1 by Lushtastic
+## Project 1 by Breakout Room 3
 ### Happiness, Success Measures, and Alcohol
 
 
@@ -47,9 +47,6 @@ One final note: GDP Per Capita doesn't equate to what the average individual ear
 *Human Development Index (HDI)*
 From Wikipedia, "the Human Development Index (HDI) is a statistical composite index of life expectancy, education (mean years of schooling completed and expected years of schooling upon entering the education system), and per capita income indicators, which is used to rank countries into four tiers of human development." Longer lifespans, greater access to education, and greater gross national income (GNI) lead to higher HDI scores.
 
-(INSERT IMAGE002)
-(INSERT IMAGE001)
-
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
 
@@ -77,21 +74,46 @@ Sourced from Kaggle.com, we identified a dataset that provided data on Global Po
 2. We performed an inner join from Source 1 to the Source 2 file using the Country field. We dropped one country from our original data set due to a lack of a match.
 3. We applied a mask to the merged dataset to convert the decimals used as thousands indicators in the GDP Per Capita column to commas, like a sane person.
 
-(INSERT Image007)
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
 
 **Question 1**
 *What are the happiest countries around the world?*
 
+| Happiest Countries | Least Happy Countries |
+| ------------------ | --------------------- |
+|![Top 10 Happiest Countries](Project_Images/top_happy_10_countries.png)| ![Bottom 10 Happiest Countries](Project_Images/bottom_happy_10_countries.png) |
+
+
 
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
+## Happiness, GDP, and HDI
+# Gross Domestic Product
+![GDP Corrolation](output_data/GDP_HDI/HappyGDP.png)
+The correlation coefficient between GDP and happiness is approximately 0.21. This suggests a positive, but relatively weak, correlation between a country's Gross Domestic Product (GDP) and its reported level of happiness.
 
-**Question 2**
-*Is happiness correlated with GDP? How about HDI?*
+![GDP Averages](output_data/GDP_HDI/Average_GDP_by_Region.png)
 
+![Top 25 GDP by Country](output_data/GDP_HDI/Top_GDP.png)
+The top 5 countries by GDP are the United States, China, Japan, Germany, and the United Kingdom.
+Notably, the majority of these top countries are located in the northern hemisphere, with the exception of Australia, which is in the southern hemisphere.
 
+![Bottom 25 GDP by Country](output_data/GDP_HDI/Bottom_GDP.png)
+The bottom 5 countries by GDP include Comoros, Belize, Liberia, Republic of Congo, and Suriname. These countries have significantly lower GDP values compared to the top-ranking nations. Similar to the top 25, the majority of these countries are in the northern hemisphere.
+
+# Human Development Index
+![HDI Corrolation](output_data/GDP_HDI/HappyHDI.png)
+The correlation coefficient between HDI and happiness is approximately 0.01. This suggests a very weak positive correlation between a country's Human Development Index (HDI) and its reported level of happiness.
+
+![HDI Averages](output_data/GDP_HDI/Average_HDI_by_Region.png)
+
+![Top 25 HDI by Country](output_data/GDP_HDI/Top_HDI.png)
+The top 5 countries by HDI are Norway, Switzerland, Australia, Germany, and Ireland.
+These countries are spread across different regions, with a mix of northern and southern hemisphere countries.
+
+![Bottom 25 HDI by Country](output_data/GDP_HDI/Bottom_HDI.png)
+The bottom 5 countries by HDI include Niger, Chad, Sierra Leone, Burkina Faso, and Mali. These countries have considerably lower HDI values compared to the top-ranking nations. Most of the bottom 25 countries are located in Sub-Saharan Africa, with a mix of northern and southern hemisphere countries.
 
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
@@ -110,15 +132,6 @@ _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
 
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
-
-
-**Conclusions**
-*Correlations*
-
-
-
-_____  _____  _____  _____  _____  _____  _____  _____  _____  _____
-
 
 **Sources**
 *Data Links*
