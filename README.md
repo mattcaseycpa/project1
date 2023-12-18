@@ -119,9 +119,12 @@ The bottom 5 countries by HDI include Niger, Chad, Sierra Leone, Burkina Faso, a
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
 # Impact of Alcohol Consumption on Happiness
-##Overall Consumption
+## Overall Consumption
+![Happiness by total alcohol consumption](output_data/OH/Happiness_by_Beer_Wine_and_Spirit_Consumption.png)
 
-##Tpye of alcohol
+
+## Type of alcohol
+![Happiness by beer, wine, spirit alcohol consumption](output_data/OH/Happiness_by_Total_Beverage_Consumption.png)
 
 
 
