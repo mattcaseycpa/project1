@@ -79,6 +79,9 @@ _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 | ------------------ | --------------------- |
 |![Top 10 Happiest Countries](Project_Images/top_happy_10_countries.png)| ![Bottom 10 Happiest Countries](Project_Images/bottom_happy_10_countries.png) |
 
+Happiest countries are found in Scandinavia followed by New Zealand and Australia. Happiest score recorded by Denmark. Countries with smaller populations are the happiest in Western Europe. The least happy countries are found in African except for Syria. Togo followed by Syria are the least happy countries.
+We also made analysis by region and hemisphere. Regions in Northern America, and New Zealand & Australia are the happiest followed by western Europe. Countries near the equator that lie both in northern and southern hemisphere are the happiest while the southern hemisphere record the least happy by Hemisphere. Many African countries with low happiness score are found in Southern Hemisphere that affected Hemisphere score to be low while happiest regions are in southern hemisphere. The data is consistent with results obtained country by country comparison. The Scandinavian countries are few when grouped in a region with several countries in western Europe to affect the region score. 
+
 
 
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
