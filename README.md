@@ -22,7 +22,7 @@ What's the point of life, the universe, and everything? The answer is a resoundi
 
 1. For starters, what are the happiest countries around the world?
 2. Is happiness correlated with measures of national success; for example: Gross Domestic Product (GDP) and Human Development Index (HDI)?
-3. Is happiness impacted by alcohol consumption?
+3. Is happiness impacted by alcohol consumption? Is there an overall relationship between alcohol consumption and happiness or does one type of alcohol affect happiness the most?
 4. Do the types of alcohol consumed seem to influence happiness differently?
 
 
@@ -86,42 +86,53 @@ _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
 
 
-_____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
 ## Happiness, GDP, and HDI
 # Gross Domestic Product
 ![GDP Corrolation](output_data/GDP_HDI/HappyGDP.png)
+
 The correlation coefficient between GDP and happiness is approximately 0.21. This suggests a positive, but relatively weak, correlation between a country's Gross Domestic Product (GDP) and its reported level of happiness.
 
 ![GDP Averages](output_data/GDP_HDI/Average_GDP_by_Region.png)
 
 ![Top 25 GDP by Country](output_data/GDP_HDI/Top_GDP.png)
+
 The top 5 countries by GDP are the United States, China, Japan, Germany, and the United Kingdom.
 Notably, the majority of these top countries are located in the northern hemisphere, with the exception of Australia, which is in the southern hemisphere.
 
 ![Bottom 25 GDP by Country](output_data/GDP_HDI/Bottom_GDP.png)
+
 The bottom 5 countries by GDP include Comoros, Belize, Liberia, Republic of Congo, and Suriname. These countries have significantly lower GDP values compared to the top-ranking nations. Similar to the top 25, the majority of these countries are in the northern hemisphere.
 
 # Human Development Index
 ![HDI Corrolation](output_data/GDP_HDI/HappyHDI.png)
+
 The correlation coefficient between HDI and happiness is approximately 0.01. This suggests a very weak positive correlation between a country's Human Development Index (HDI) and its reported level of happiness.
 
 ![HDI Averages](output_data/GDP_HDI/Average_HDI_by_Region.png)
 
 ![Top 25 HDI by Country](output_data/GDP_HDI/Top_HDI.png)
+
 The top 5 countries by HDI are Norway, Switzerland, Australia, Germany, and Ireland.
 These countries are spread across different regions, with a mix of northern and southern hemisphere countries.
 
 ![Bottom 25 HDI by Country](output_data/GDP_HDI/Bottom_HDI.png)
+
 The bottom 5 countries by HDI include Niger, Chad, Sierra Leone, Burkina Faso, and Mali. These countries have considerably lower HDI values compared to the top-ranking nations. Most of the bottom 25 countries are located in Sub-Saharan Africa, with a mix of northern and southern hemisphere countries.
 
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
 
 **Question 3**
-*Is happiness impacted by alcohol consumption?*
+*Is happiness impacted by alcohol consumption? Is there an overall relationship between alcohol consumption and happiness or does one type of alcohol affect happiness the most?*
 
+<img src="output_data/Happiness%20by%20Beer,%20Wine,%20and%20Spirit%20Consumption.png" width = 800, height = 400>
 
+For each type of alcohol, we found the correlation between Happiness and Beer, Wine, Spirit to be 0.488, 0.447, and 0.246, respectively. This means there is a moderate relationship between Happiness and Beer and Happiness and Wine. However, there was a weak relationship between Happiness and Spirits.
+
+<img src="output_data/Happiness%20by%20Total%20Beverage%20Consumption.png" width = 950, height = 320>
+
+When we combined the alcohol consumption together, we found a correlation coefficient of 0.541, which is also a moderate relationship between Happiness and Alcohol Consumption.
 
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
