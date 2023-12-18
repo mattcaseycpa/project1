@@ -120,11 +120,11 @@ _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
 # Impact of Alcohol Consumption on Happiness
 ## Overall Consumption
-![Happiness by total alcohol consumption](output_data/OH/Happiness_by_Beer_Wine_and_Spirit_Consumption.png)
+![Happiness by beer, wine, spirit alcohol consumption](output_data/OH/Happiness_by_Total_Beverage_Consumption.png)
 
 
 ## Type of alcohol
-![Happiness by beer, wine, spirit alcohol consumption](output_data/OH/Happiness_by_Total_Beverage_Consumption.png)
+![Happiness by total alcohol consumption](output_data/OH/Happiness_by_Beer_Wine_and_Spirit_Consumption.png)
 
 
 
