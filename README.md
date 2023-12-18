@@ -16,7 +16,7 @@ _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
 
 **Our Questions**
-What's the point of life, the universe, and everything? The answer is a resounding '42', as calculated by the fictional super-computer Deep Thought (always know where your towel is). More seriously though, surely the point of our lives is to maximize human happiness. With that in mind, we thought it might be interesting to investigate happiness and several things that it correlates with.
+What's the point of life, the universe, and everything? The answer is a resounding '42', as calculated by the fictional super-computer Deep Thought (always know where your towel is). More seriously, though, surely the point of our lives is to maximize human happiness. With that in mind, we set out to investigate happiness and its relationship with several factors.
 
 
 1. What are the happiest countries around the world?
@@ -37,7 +37,7 @@ Background information for those in need!
 *Gross Domestic Product (GDP)*
 GDP is a measure of how much value a country creates through the production of goods and services. If you take a country's GDP and divide that number by its population, the result is GDP Per Capita, which is a rough estimate of how much value each person contributed to the economy. These values are usually stated on a per annum basis and they can vary wildly across countries and regions.
 
-To provide a sense of the scale, the United States GDP in our dataset is nearly $19 Trillion while China - a country with five times as many people - has a GDP of $11 Trillion. To help put GDP into perspective, we calculate GDP Per Capita as it helps us to normalize GDP across countries with wildly different size population. In our dataset, Luxembourg has the highest GDP Per Capita ($100,739) while Malawi has the lowest GDP Per Capita ($300).
+To provide a sense of the scale, the United States GDP in our dataset is nearly $19 Trillion while China - a country with five times as many people - has a GDP of $11 Trillion. To help put GDP into perspective, we calculate GDP Per Capita to normalize GDP across countries with wildly different populations. In our dataset, Luxembourg has the highest GDP Per Capita ($100,739) while Malawi has the lowest GDP Per Capita ($300).
 
 One final note: GDP Per Capita doesn't equate to what the average individual earns. That's an entirely different conversation!
 
@@ -54,11 +54,11 @@ Sourced from Kaggle.com, we identified a dataset that provided insight into happ
 [Kaggle Link](https://www.kaggle.com/datasets/marcospessotto/happiness-and-alcohol-consumption/data)
 
 Things to know about this dataset:
-1. Happiness was rated on the scale of 1 to 10 by country, based on a survey previously conducted.
-2. Measures of national success included Gross Domestic Product (GDP) and Human Development Index (HDI).
-3. Alcohol consumed per capita is broken down into type with separate columns for beer, spirits, and wine.
-4. While the dataset included several columns of data per capita, it didn't include each country's population data.
-5. The GDP Per Capita column used decimals, instead of commas, to represent thousands - this required some pre-processing.
+1. Happiness was rated on the scale of 1 to 10 by country, based on a survey previously conducted
+2. Measures of national success included Gross Domestic Product (GDP) and Human Development Index (HDI)
+3. Alcohol consumed per capita is broken down by type: beer, wine, and spirits
+4. While the dataset included several columns of data per capita, it didn't include each country's population data
+5. The GDP Per Capita column used decimals instead of commas to represent thousands, requiring additional data cleansing for usability
 
 *Source 2*
 Sourced from Kaggle.com, we identified a dataset that provided data on Global Population Trends for years 2016 - 2022. Our first dataset contains 2016 data so we isolated the most complete set of data from the file for the countries in the original file. We determined that the best year for us to match against was 2018.
