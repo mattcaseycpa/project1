@@ -84,7 +84,6 @@ We also made analysis by region and hemisphere. Regions in Northern America, and
 
 
 
-_____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
 # Happiness, GDP, and HDI
 ## Gross Domestic Product
