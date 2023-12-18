@@ -125,6 +125,7 @@ Based on the combination of all three alcohols measured, linear regression shows
 
 ## Type of alcohol
 ![Happiness by beer, wine, spirit alcohol consumption](output_data/OH/Happiness_by_Beer_Wine_and_Spirit_Consumption.png)
+
 When compared individually, the three types of alcohol measured each support positive relationships between consummption per capita and happiness, but with somewhat varying strengths:
 - Beer: moderate relationship (r = 0.488)
 - Wine: moderate relationship (r = 0.447)
