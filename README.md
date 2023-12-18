@@ -118,15 +118,17 @@ The bottom 5 countries by HDI include Niger, Chad, Sierra Leone, Burkina Faso, a
 
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
-# Impact of Alcohol Consumption on Happiness
-## Overall Consumption
-![Happiness by beer, wine, spirit alcohol consumption](output_data/OH/Happiness_by_Total_Beverage_Consumption.png)
-
+#  Relationship between Alcohol Consumption and Happiness
+## Total Alcohol Consumption
+![Happiness by total alcohol consumption](output_data/OH/Happiness_by_Total_Beverage_Consumption.png)
+Based on the combination of all three alcohols measured, linear regression shows a moderate positive relationship between alcoholic consumption per capita and happiness (r = 0.541).
 
 ## Type of alcohol
-![Happiness by total alcohol consumption](output_data/OH/Happiness_by_Beer_Wine_and_Spirit_Consumption.png)
-
-
+![Happiness by beer, wine, spirit alcohol consumption](output_data/OH/Happiness_by_Beer_Wine_and_Spirit_Consumption.png)
+When compared individually, the three types of alcohol measured each support positive relationships between consummption per capita and happiness, but with somewhat varying strengths:
+- Beer: moderate relationship (r = 0.488)
+- Wine: moderate relationship (r = 0.447)
+- Spirits: weak relationship (r = 0.246)
 
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
