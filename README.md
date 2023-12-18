@@ -19,12 +19,9 @@ _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 What's the point of life, the universe, and everything? The answer is a resounding '42', as calculated by the fictional super-computer Deep Thought (always know where your towel is). More seriously though, surely the point of our lives is to maximize human happiness. With that in mind, we thought it might be interesting to investigate happiness and several things that it correlates with.
 
 
-
-1. For starters, what are the happiest countries around the world?
+1. What are the happiest countries around the world?
 2. Is happiness correlated with measures of national success; for example: Gross Domestic Product (GDP) and Human Development Index (HDI)?
-3. Is happiness impacted by alcohol consumption?
-4. Do the types of alcohol consumed seem to influence happiness differently?
-
+3. Is happiness impacted by alcohol consumption? Is there an overall relationship between alcohol consumption and happiness or does one type of alcohol affect happiness the most?
 
 
 ![The happiest 10 countries](Project_Images/Chart001.png)
@@ -76,9 +73,7 @@ Sourced from Kaggle.com, we identified a dataset that provided data on Global Po
 
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
-
-**Question 1**
-*What are the happiest countries around the world?*
+# Happiest Countries Around the World
 
 | Happiest Countries | Least Happy Countries |
 | ------------------ | --------------------- |
@@ -88,72 +83,53 @@ _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
-## Happiness, GDP, and HDI
-# Gross Domestic Product
+# Happiness, GDP, and HDI
+## Gross Domestic Product
 ![GDP Corrolation](output_data/GDP_HDI/HappyGDP.png)
+
 The correlation coefficient between GDP and happiness is approximately 0.21. This suggests a positive, but relatively weak, correlation between a country's Gross Domestic Product (GDP) and its reported level of happiness.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Question 2**
-##Happiness, GDP, and HDI
-#Gross Domestic Product
-![GDP Corrolation](output_data/GDP_HDI/HappyGDP.png)
-![GDP Averages](output_data/GDP_HDI/Average_GDP_by_Region.png)
-![Top 25 GDP by Country](output_data/GDP_HDI/Top_GDP.png)
-![Bottom 25 GDP by Country](output_data/GDP_HDI/Bottom_GDP.png)
-
-#Human Development Index
-![HDI Corrolation](output_data/GDP_HDI/HappyHDI.png)
-![HDI Averages](output_data/GDP_HDI/Average_HDI_by_Region.png)
-![Top 25 HDI by Country](output_data/GDP_HDI/Top_HDI.png)
-![Bottom 25 HDI by Country](output_data/GDP_HDI/Bottom_HDI.png)
-=======
-=======
->>>>>>> 6aa75c057f74bf0273ce5ab596999de8b454b478
 ![GDP Averages](output_data/GDP_HDI/Average_GDP_by_Region.png)
 
 ![Top 25 GDP by Country](output_data/GDP_HDI/Top_GDP.png)
+
 The top 5 countries by GDP are the United States, China, Japan, Germany, and the United Kingdom.
 Notably, the majority of these top countries are located in the northern hemisphere, with the exception of Australia, which is in the southern hemisphere.
 
 ![Bottom 25 GDP by Country](output_data/GDP_HDI/Bottom_GDP.png)
+
 The bottom 5 countries by GDP include Comoros, Belize, Liberia, Republic of Congo, and Suriname. These countries have significantly lower GDP values compared to the top-ranking nations. Similar to the top 25, the majority of these countries are in the northern hemisphere.
 
-# Human Development Index
+## Human Development Index
 ![HDI Corrolation](output_data/GDP_HDI/HappyHDI.png)
+
 The correlation coefficient between HDI and happiness is approximately 0.01. This suggests a very weak positive correlation between a country's Human Development Index (HDI) and its reported level of happiness.
 
 ![HDI Averages](output_data/GDP_HDI/Average_HDI_by_Region.png)
-<<<<<<< HEAD
->>>>>>> main
-=======
->>>>>>> 6aa75c057f74bf0273ce5ab596999de8b454b478
 
 ![Top 25 HDI by Country](output_data/GDP_HDI/Top_HDI.png)
+
 The top 5 countries by HDI are Norway, Switzerland, Australia, Germany, and Ireland.
 These countries are spread across different regions, with a mix of northern and southern hemisphere countries.
 
 ![Bottom 25 HDI by Country](output_data/GDP_HDI/Bottom_HDI.png)
+
 The bottom 5 countries by HDI include Niger, Chad, Sierra Leone, Burkina Faso, and Mali. These countries have considerably lower HDI values compared to the top-ranking nations. Most of the bottom 25 countries are located in Sub-Saharan Africa, with a mix of northern and southern hemisphere countries.
 
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
-
-**Question 3**
-*Is happiness impacted by alcohol consumption?*
-
-
-
-_____  _____  _____  _____  _____  _____  _____  _____  _____  _____
+# Impact of Alcohol Consumption on Happiness
+## Overall Consumption
+![Happiness by beer, wine, spirit alcohol consumption](output_data/OH/Happiness_by_Total_Beverage_Consumption.png)
 
 
-**Question 4**
-*Do the types of alcohol consumed seem to influence happiness differently?*
+## Type of alcohol
+![Happiness by total alcohol consumption](output_data/OH/Happiness_by_Beer_Wine_and_Spirit_Consumption.png)
 
 
 
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
+
 
 **Sources**
 *Data Links*
