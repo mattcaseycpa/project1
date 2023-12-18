@@ -47,9 +47,6 @@ One final note: GDP Per Capita doesn't equate to what the average individual ear
 *Human Development Index (HDI)*
 From Wikipedia, "the Human Development Index (HDI) is a statistical composite index of life expectancy, education (mean years of schooling completed and expected years of schooling upon entering the education system), and per capita income indicators, which is used to rank countries into four tiers of human development." Longer lifespans, greater access to education, and greater gross national income (GNI) lead to higher HDI scores.
 
-(INSERT IMAGE002)
-(INSERT IMAGE001)
-
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
 
@@ -77,7 +74,6 @@ Sourced from Kaggle.com, we identified a dataset that provided data on Global Po
 2. We performed an inner join from Source 1 to the Source 2 file using the Country field. We dropped one country from our original data set due to a lack of a match.
 3. We applied a mask to the merged dataset to convert the decimals used as thousands indicators in the GDP Per Capita column to commas, like a sane person.
 
-(INSERT Image007)
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
 
@@ -131,15 +127,6 @@ _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
 
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
-
-
-**Conclusions**
-*Correlations*
-
-
-
-_____  _____  _____  _____  _____  _____  _____  _____  _____  _____
-
 
 **Sources**
 *Data Links*
