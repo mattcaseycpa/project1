@@ -146,6 +146,13 @@ In general, alcohol consumption has a moderate positive correlation with happine
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
 
+# Potential Project Extensions
+1. How does excessive alcohol consumption correlate with happiness ratings? What assumptions would we have to make to advance that analysis?
+2. How would a better indicator of individual income levels and/or poverty levels correlate with happiness scores?
+3. Does the average level of education (primary, secondary, and advanced degrees) in a country correlate with happiness?
+
+_____  _____  _____  _____  _____  _____  _____  _____  _____  _____
+
 **Sources**
 *Data Links*
 01. [Happiness, GDP, HDI, and Alcohol Consumption](https://www.kaggle.com/datasets/marcospessotto/happiness-and-alcohol-consumption/data)
@@ -153,6 +160,7 @@ _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
 _____  _____  _____ 
 
+**Sources**
 *Images*
 001. https://en.wikipedia.org/wiki/Human_Development_Index
 002. https://www.investopedia.com/terms/g/gdp.asp
