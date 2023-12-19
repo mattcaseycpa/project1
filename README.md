@@ -86,11 +86,13 @@ _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
 The correlation coefficient between GDP and happiness is approximately 0.21. This suggests a positive, but relatively weak, correlation between a country's Gross Domestic Product (GDP) and its reported level of happiness.
 
-Gross Domestic Product (Sans Outliers)
+**Gross Domestic Product (Sans Outliers)**
 
 ![GDP Corrolation](output_data/GDP_HDI/HappyGDP_no_outliers.png)
 
-After removing 15 outliers, which were countries that had a significantly higher GDP than most others, the correlation coefficient was 0.5153. This represents a moderate relationship between Happiness and GDP. This is a significantly stronger correlation than with outliers included.
+After removing 16 outliers, which were countries that had a significantly higher GDP than most others, the correlation coefficient was 0.5153. This represents a moderate relationship between Happiness and GDP. This is a significantly stronger correlation than with outliers included.
+
+The next few GDP graphs still include the outliers, and you can see just how big of outliers they are in the graphs below. 
 
 ![GDP Averages](output_data/GDP_HDI/Average_GDP_by_Region.png)
 
