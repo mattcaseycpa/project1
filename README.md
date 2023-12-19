@@ -13,7 +13,7 @@ Eyasu Yilma
 <img src="Project_Images/Image006.jpg" width = 500, height = 400>
 
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
-
+# [Google Slide Deck](https://docs.google.com/presentation/d/185aMQ0W6HLi_Vztu7UjiMQ7GNIKSJafr-jSgb7_EsrU/edit?usp=sharing)
 
 **Our Questions**
 What's the point of life, the universe, and everything? The answer is a resounding '42', as calculated by the fictional super-computer Deep Thought (always know where your towel is). More seriously, though, surely the point of our lives is to maximize human happiness. With that in mind, we set out to investigate happiness and its relationship with several factors.
@@ -83,13 +83,19 @@ Happiest countries are found in Scandinavia followed by New Zealand and Australi
 We also made analysis by region and hemisphere. Regions in Northern America, and New Zealand & Australia are the happiest followed by western Europe. Countries near the equator that lie both in northern and southern hemisphere are the happiest while the southern hemisphere record the least happy by Hemisphere. Many African countries with low happiness score are found in Southern Hemisphere that affected Hemisphere score to be low while happiest regions are in southern hemisphere. The data is consistent with results obtained country by country comparison. The Scandinavian countries are few when grouped in a region with several countries in western Europe to affect the region score. 
 
 
-
-
 # Happiness, GDP, and HDI
 ## Gross Domestic Product
 ![GDP Corrolation](output_data/GDP_HDI/HappyGDP.png)
 
 The correlation coefficient between GDP and happiness is approximately 0.21. This suggests a positive, but relatively weak, correlation between a country's Gross Domestic Product (GDP) and its reported level of happiness.
+
+**Gross Domestic Product (Sans Outliers)**
+
+![GDP Corrolation](output_data/GDP_HDI/HappyGDP_no_outliers.png)
+
+After removing 16 outliers, which were countries that had a significantly higher GDP than most others, the correlation coefficient was 0.5153. This represents a moderate relationship between Happiness and GDP. This is a significantly stronger correlation than with outliers included.
+
+The next few GDP graphs still include the outliers, and you can see just how big of outliers they are in the graphs below. 
 
 ![GDP Averages](output_data/GDP_HDI/Average_GDP_by_Region.png)
 
@@ -125,7 +131,7 @@ _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 ![Happiness by total alcohol consumption](output_data/OH/Happiness_by_Total_Beverage_Consumption.png)
 Based on the combination of all three alcohols measured, linear regression shows a moderate positive relationship between alcoholic consumption per capita and happiness (r = 0.541).
 
-## Type of alcohol
+## Type of Alcohol
 ![Happiness by beer, wine, spirit alcohol consumption](output_data/OH/Happiness_by_Beer_Wine_and_Spirit_Consumption.png)
 
 When compared individually, the three types of alcohol measured each support positive relationships between consummption per capita and happiness, but with somewhat varying strengths:
@@ -135,6 +141,26 @@ When compared individually, the three types of alcohol measured each support pos
 
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
+# Conclusions
+## What are some of the happiest countries around the world?
+Denmark, Switzerland, Iceland, Norway, Finland
+
+## Is happiness correlated with measures of national success; for example: Gross Domestic Product (GDP) and Human Development Index (HDI)?
+GDP has a weak positive correlation with happiness.
+HDI has a strong positive correlation with happiness.
+
+## Is happiness impacted by alcohol consumption? Is there an overall relationship between alcohol consumption and happiness, and does any one type of alcohol affect happiness more than others?
+In general, alcohol consumption has a moderate positive correlation with happiness. Beer and wine are more strongly correlated with happiness than spirits are, but the correlation is still only moderate.
+
+_____  _____  _____  _____  _____  _____  _____  _____  _____  _____
+
+
+# Potential Project Extensions
+1. How does excessive alcohol consumption correlate with happiness ratings? What assumptions would we have to make to advance that analysis?
+2. How would a better indicator of individual income levels and/or poverty levels correlate with happiness scores?
+3. Does the average level of education (primary, secondary, and advanced degrees) in a country correlate with happiness?
+
+_____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
 **Sources**
 *Data Links*
@@ -143,6 +169,7 @@ _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
 _____  _____  _____ 
 
+**Sources**
 *Images*
 001. https://en.wikipedia.org/wiki/Human_Development_Index
 002. https://www.investopedia.com/terms/g/gdp.asp
@@ -151,8 +178,5 @@ _____  _____  _____
 005. https://en.wikipedia.org/wiki/Gross_domestic_product
 006. https://www.winespectator.com/articles/does-it-matter-what-you-drink
 007. https://en.wikipedia.org/wiki/Spreadsheet
-008.
-009.
-010.
 
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
