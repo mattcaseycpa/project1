@@ -132,6 +132,19 @@ When compared individually, the three types of alcohol measured each support pos
 
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
+#  Conclusions
+##What are some of the happiest countries around the world?
+Denmark, Switzerland, Iceland, Norway, Finland
+
+##Is happiness correlated with measures of national success; for example: Gross Domestic Product (GDP) and Human Development Index (HDI)?
+GDP has a weak positive correlation with happiness.
+HDI has a strong positive correlation with happiness.
+
+##Is happiness impacted by alcohol consumption? Is there an overall relationship between alcohol consumption and happiness, and does any one type of alcohol affect happiness more than others?
+In general, alcohol consumption has a moderate positive correlation with happiness. Beer and wine are more strongly correlated with happiness than spirits are, but the correlation is still only moderate.
+
+_____  _____  _____  _____  _____  _____  _____  _____  _____  _____
+
 
 **Sources**
 *Data Links*
@@ -148,8 +161,5 @@ _____  _____  _____
 005. https://en.wikipedia.org/wiki/Gross_domestic_product
 006. https://www.winespectator.com/articles/does-it-matter-what-you-drink
 007. https://en.wikipedia.org/wiki/Spreadsheet
-008.
-009.
-010.
 
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
