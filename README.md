@@ -88,6 +88,11 @@ _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 
 The correlation coefficient between GDP and happiness is approximately 0.21. This suggests a positive, but relatively weak, correlation between a country's Gross Domestic Product (GDP) and its reported level of happiness.
 
+## Gross Domestic Product (Sans Outliers)
+(INSERT CHART)
+
+After removing ## outliers, which were countries that had a significantly higher GDP than most others, the correlation coefficient was #####. This represents a NNNNNN relationship between Happiness and GDP.
+
 ![GDP Averages](output_data/GDP_HDI/Average_GDP_by_Region.png)
 
 ![Top 25 GDP by Country](output_data/GDP_HDI/Top_GDP.png)
@@ -122,7 +127,7 @@ _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
 ![Happiness by total alcohol consumption](output_data/OH/Happiness_by_Total_Beverage_Consumption.png)
 Based on the combination of all three alcohols measured, linear regression shows a moderate positive relationship between alcoholic consumption per capita and happiness (r = 0.541).
 
-## Type of alcohol
+## Type of Alcohol
 ![Happiness by beer, wine, spirit alcohol consumption](output_data/OH/Happiness_by_Beer_Wine_and_Spirit_Consumption.png)
 
 When compared individually, the three types of alcohol measured each support positive relationships between consummption per capita and happiness, but with somewhat varying strengths:
