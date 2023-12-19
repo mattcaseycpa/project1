@@ -13,8 +13,7 @@ Eyasu Yilma
 <img src="Project_Images/Image006.jpg" width = 500, height = 400>
 
 _____  _____  _____  _____  _____  _____  _____  _____  _____  _____
-# Google Slide Deck
-https://docs.google.com/presentation/d/185aMQ0W6HLi_Vztu7UjiMQ7GNIKSJafr-jSgb7_EsrU/edit?usp=sharing
+# [Google Slide Deck](https://docs.google.com/presentation/d/185aMQ0W6HLi_Vztu7UjiMQ7GNIKSJafr-jSgb7_EsrU/edit?usp=sharing)
 
 **Our Questions**
 What's the point of life, the universe, and everything? The answer is a resounding '42', as calculated by the fictional super-computer Deep Thought (always know where your towel is). More seriously, though, surely the point of our lives is to maximize human happiness. With that in mind, we set out to investigate happiness and its relationship with several factors.
